@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-caption {
+	bottom: 6rem;
+	z-index: 1;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(29, 29, 29, 0.7);
+    z-index: 1;
+}
+.silder-heading{
+    font-weight: 600;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+.silder-paragraph{
+    font-weight: 400;
+    font-size: 18px;
+}
+.btn-slider{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #289BDE;
+    color: #FFFFFF;
+}
+.btn-slider:hover{
+    background-color: #FFFFFF;
+    color: #289BDE;
+}
+
+/* -------------
+   Media Queries
+   ------------- */
+/* Mobile View */
+@media screen and (max-width: 576px) {
+    .carousel-caption{
+        bottom: -1rem;
+    }
+    .silder-heading{
+        font-size: 20px;
+    }
+    .silder-paragraph{
+        font-size: 12px;
+    }
+    .btn-slider{
+        font-size: 16px;
+    }
+}
+/* Tab View */
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .carousel-caption{
+        bottom: 3rem;
+    }
+    .silder-heading{
+        font-size: 40px;
+    }
+    .silder-paragraph{
+        font-size: 16px;
+    }
+    .btn-slider{
+        font-size: 18px;
+    }
+}
