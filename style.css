@@ -87,6 +87,29 @@ body{
     color: #777777;
     margin: 0;
 }
+.bg-registration{
+    background-color: #289BDE;
+}
+.registration-heading{
+    font-weight: 600;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+.registration-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    color: #F4F4F4;
+    margin: 0;
+}
+.btn-register{
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #289BDE;
+}
+.btn-register:hover{
+    background-color: #289BDE;
+    color: #FFFFFF;
+}
 
 /* -------------
    Media Queries
@@ -105,20 +128,14 @@ body{
     .btn-slider{
         font-size: 16px;
     }
-    .courses-heading{
+    .courses-heading, .registration-heading, .advertise-heading{
         font-size: 18px;
     }
-    .courses-paragraph{
+    .courses-paragraph, .registration-paragraph, .advertise-paragraph{
         font-size: 14px;
     }
     #dam, #pgm, #mgdv{
         display: none;
-    }
-    .advertise-heading{
-        font-size: 30px;
-    }
-    .advertise-paragraph{
-        font-size: 14px;
     }
     .advertise-paragraph-sec{
         font-size: 16px;
@@ -138,22 +155,13 @@ body{
     .btn-slider{
         font-size: 18px;
     }
-    .courses-heading{
+    .courses-heading, .registration-heading, .advertise-heading{
         font-size: 30px;
     }
-    .courses-paragraph{
+    .courses-paragraph, .registration-paragraph, .advertise-paragraph, .advertise-paragraph-sec{
         font-size: 16px;
     }
     #dam, #pgm, #mgdv{
         display: none;
-    }
-    .advertise-heading{
-        font-size: 25px;
-    }
-    .advertise-paragraph{
-        font-size: 16px;
-    }
-    .advertise-paragraph-sec{
-        font-size: 16px;
     }
 }
