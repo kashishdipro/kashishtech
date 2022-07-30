@@ -1,8 +1,9 @@
+/* Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+/* Slider */
 .carousel-caption {
 	bottom: 6rem;
 	z-index: 1;
@@ -37,6 +38,7 @@ body{
     background-color: #FFFFFF;
     color: #289BDE;
 }
+/* Course */
 .courses-heading{
     font-weight: 600;
     font-size: 45px;
@@ -67,6 +69,18 @@ body{
     color: #289BDE;
     text-align: start;
 }
+/* Feedback */
+.feedback-heading{
+    font-weight: 600;
+    font-size: 18px;
+    color: #4A4A4A;
+}
+.feedback-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    color: #777777;
+}
+/* Advertise */
 .advertise{
     background-color: #F4FAFD;
 }
@@ -87,6 +101,7 @@ body{
     color: #777777;
     margin: 0;
 }
+/* Registration */
 .bg-registration{
     background-color: #289BDE;
 }
@@ -110,8 +125,24 @@ body{
     background-color: #289BDE;
     color: #FFFFFF;
 }
+/* Successfull Student */
 .successfull-heading{
     text-align: start;
+}
+/* Footer */
+.footer-heading{
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.footer-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    color: #E8E8E8;
+}
+.social-icon{
+    color: #FFFFFF;
+    margin-right: 1rem;
 }
 
 /* -------------
