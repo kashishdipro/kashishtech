@@ -3,6 +3,24 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* Nav */
+.brand-title{
+    font-weight: 600;
+    font-size: 40px;
+}
+.regi-btn{
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #289BDE;
+    border-radius: 5px;
+    border: 1px solid #289BDE;
+    padding: 10px;
+}
+.regi-btn:hover{
+    background-color: #289BDE;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
 /* Slider */
 .carousel-caption {
 	bottom: 6rem;
@@ -153,7 +171,7 @@ body{
     .carousel-caption{
         bottom: -1rem;
     }
-    .silder-heading{
+    .silder-heading, .brand-title{
         font-size: 20px;
     }
     .silder-paragraph{
@@ -168,7 +186,7 @@ body{
     .courses-paragraph, .registration-paragraph, .advertise-paragraph{
         font-size: 14px;
     }
-    #dam, #pgm, #mgdv, #ahn, #cs{
+    #dam, #pgm, #mgdv, #ahn, #cs, .regi-btn{
         display: none;
     }
     .advertise-paragraph-sec{
@@ -192,7 +210,7 @@ body{
     .btn-slider{
         font-size: 18px;
     }
-    .courses-heading, .registration-heading, .advertise-heading{
+    .courses-heading, .registration-heading, .advertise-heading, .brand-title{
         font-size: 30px;
     }
     .courses-paragraph, .registration-paragraph, .advertise-paragraph, .advertise-paragraph-sec{
