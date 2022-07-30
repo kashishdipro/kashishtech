@@ -192,6 +192,9 @@ body{
     .advertise-paragraph-sec{
         font-size: 16px;
     }
+    .tsm-center{
+        text-align: center;
+    }
     .successfull-heading{
         text-align: center;
     }
@@ -215,6 +218,9 @@ body{
     }
     .courses-paragraph, .registration-paragraph, .advertise-paragraph, .advertise-paragraph-sec{
         font-size: 16px;
+    }
+    .tsm-center{
+        text-align: center;
     }
     #dam, #pgm, #mgdv, #btn-va, #cs{
         display: none;
