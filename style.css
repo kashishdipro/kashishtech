@@ -137,7 +137,7 @@ body{
     .courses-paragraph, .registration-paragraph, .advertise-paragraph{
         font-size: 14px;
     }
-    #dam, #pgm, #mgdv, #ahn{
+    #dam, #pgm, #mgdv, #ahn, #cs{
         display: none;
     }
     .advertise-paragraph-sec{
@@ -167,7 +167,7 @@ body{
     .courses-paragraph, .registration-paragraph, .advertise-paragraph, .advertise-paragraph-sec{
         font-size: 16px;
     }
-    #dam, #pgm, #mgdv, #btn-va{
+    #dam, #pgm, #mgdv, #btn-va, #cs{
         display: none;
     }
 }
