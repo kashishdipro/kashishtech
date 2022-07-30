@@ -67,6 +67,26 @@ body{
     color: #289BDE;
     text-align: start;
 }
+.advertise{
+    background-color: #F4FAFD;
+}
+.advertise-heading{
+    font-weight: 600;
+    font-size: 45px;
+    color: #1D1D1D;
+}
+.advertise-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    color: #777777;
+    margin: 0;
+}
+.advertise-paragraph-sec{
+    font-weight: 500;
+    font-size: 20px;
+    color: #777777;
+    margin: 0;
+}
 
 /* -------------
    Media Queries
@@ -94,6 +114,15 @@ body{
     #dam, #pgm, #mgdv{
         display: none;
     }
+    .advertise-heading{
+        font-size: 30px;
+    }
+    .advertise-paragraph{
+        font-size: 14px;
+    }
+    .advertise-paragraph-sec{
+        font-size: 16px;
+    }
 }
 /* Tab View */
 @media screen and (min-width: 576px) and (max-width: 992px){
@@ -117,5 +146,14 @@ body{
     }
     #dam, #pgm, #mgdv{
         display: none;
+    }
+    .advertise-heading{
+        font-size: 25px;
+    }
+    .advertise-paragraph{
+        font-size: 16px;
+    }
+    .advertise-paragraph-sec{
+        font-size: 16px;
     }
 }
